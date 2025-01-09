@@ -12,6 +12,9 @@
   margin: 20px 0;
 }
 /* margin collapse between sibling elements */
+.parent {
+  background-color: rgb(255, 255, 255);
+}
 .container {
   background-color: rgb(255, 255, 255);
   display: flex; /* Prevents margin collapse */

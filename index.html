@@ -20,9 +20,13 @@
 </div>
 <hr>
 <!-- margin collapse between sibling elements -->
-<div class="container">
-  <div class="child"></div>
-  <div class="child"></div>
+<div class=" parent">
+  <div class="child">collapsed</div>
+  <div class="child">collapsed</div>
+</div>
+<div class=" parent container">
+  <div class="child">not collapsed</div>
+  <div class="child">not collapsed</div>
 </div>
 </body>
 </html>

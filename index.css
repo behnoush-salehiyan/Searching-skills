@@ -1,0 +1,24 @@
+/* Collapsing Child Margins */
+.red {
+  background-color: red;
+}
+.green {
+  background-color: greenyellow;
+}
+.padding {
+  padding: 30px; /*Prevents margin collapse*/
+}
+.space {
+  margin: 20px 0;
+}
+/* margin collapse between sibling elements */
+.container {
+  background-color: rgb(255, 255, 255);
+  display: flex; /* Prevents margin collapse */
+  flex-direction: column;
+}
+.child {
+  margin: 20px 0;
+  background-color: rgb(0, 117, 156);
+  padding: 10px;
+}
